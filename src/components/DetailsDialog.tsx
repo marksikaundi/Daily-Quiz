@@ -25,14 +25,14 @@ const DetailsDialog = (props: Props) => {
       </DialogTrigger>
       <DialogContent className="w-[70vw] max-w-[100vw] md:w-[50vw]">
         <DialogHeader>
-          <DialogTitle className="text-2xl">Welcome to Quizmify!</DialogTitle>
+          <DialogTitle className="text-2xl">Welcome to Daily Quiz!</DialogTitle>
           <DialogDescription>
             <div className="flex items-center gap-3 my-2">
               <p className="flex items-center">
                 <Github className="w-5 h-5" />
                 <Link
                   className="ml-1 underline"
-                  href="https://github.com/elliott-chong/quizmify"
+                  href="https://github.com/marksikaundi"
                 >
                   GitHub
                 </Link>
@@ -41,15 +41,16 @@ const DetailsDialog = (props: Props) => {
                 <Youtube className="w-5 h-5" />
                 <Link
                   className="ml-1 underline"
-                  href="https://youtube.com/@elliottchong"
+                  href="https://youtube.com/@devcircleafrica
+                  "
                 >
                   YouTube
                 </Link>
               </p>
             </div>
             <p className="my-2 mt-4 ">
-              Are you tired of mundane and repetitive quizzes? Say goodbye to
-              the ordinary and embrace the extraordinary with Quizmefy! Our
+              Are you tired of repetitive quizzes? Say goodbye to
+              the ordinary and embrace the extraordinary with Daily Quiz ! Our
               platform is revolutionizing the quiz and trivia experience by
               harnessing the immense potential of artificial intelligence.
             </p>
